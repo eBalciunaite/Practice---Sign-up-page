@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(to bottom right, #2E5A00, #58D300);
+}
+
+.container {
+    display: inline-block;
+    width: 965px;
+    margin-top: 50px;
+    height: 600px;
+    background-color:white;
+    margin-left: calc((100% - 965px) / 2);
+}
+
+.left-column {
+    width: 40%;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+    background-size: 386px 500px;
+    background-image: url(../img/monstera.jpg);
+    background-repeat: no-repeat;
+}
+
+.right-column {
+    width: 56%;
+    margin-top: 25px;
+    height: 550px;
+    float: left;
+    background-color: yellow;
+
+}
