@@ -10,6 +10,9 @@
 
 
 <body>
+
+    <div class="bg-image"></div>
+    
     <main class="container">
 
         <div class="left-column">
@@ -18,26 +21,36 @@
         </div>
 
         <div class="right-column">
-            <button class="close_btn" onclick="closeWin()">x</button>
-            <form action="#">
-                <label class="form_labels" for="Username">Username</label><br>
-                <input class="input" type="text" id="username" name="username" placeholder="Username"><br>
-                <label class="form_labels" for="email">E-Mail</label><br>
-                <input class="input" type="email" id="email" name="E-mail" placeholder="E-mail"><br>
-                <label class="form_labels" for="password">Password</label><br>
-                <input class="input" type="password" id="password" name="Password" placeholder="●●●●●●"><br>
-                <label class="form_labels" for="rep_password">Repeat password</label><br>
-                <input class="input" type="password" id="rep_password" name="Repeat password" placeholder="●●●●●●"><br>
-                <input class="getstarted" type="submit" value="Get started"> 
-                
+            <div class="close">x</div>
+            <form>
+                <div class="form-row">
+                    <label for="">Username</label>
+                    <input type="text" class="">
+                </div>
 
+                <div class="form-row">
+                    <label for="">Email</label>
+                    <input type="email" class="">
+                </div>
 
+                <div class="form-row">
+                    <label for="">Password</label>
+                    <input type="password" class="">
+                </div>
 
+                <div class="form-row">
+                    <label for="">Repeat password</label>
+                    <input type="password" class="">
+                </div>
 
+                <div class="form-row">
+                <button type="submit">Get started</button>
+                <span>or</span>
+                <a href="#">Sign in</a>
+                </div>
 
             </form>
         </div>
-
     </main>
 
 </body>
